@@ -6,32 +6,7 @@ menuIcon.addEventListener('click', () => {
 })
 
 
-/*-------------------Filter Table Data-----------------*/
-// //VARIABLES
-// let input = document.getElementById('table-input');
-// input.addEventListener('keyup', filterProducts);
 
-// function filterProducts(){
-//     let input = document.getElementById('table-input');
-//     let filter = input.value.toUpperCase();
-//     let table = document.getElementById('table');
-//     let tr = table.getElementsByTagName('tr');
-
-//     for(let i = 0; i < tr.length; i++){
-//         let td = tr[i].getElementsByTagName('td')[0];
-//         let td2 = tr[i].getElementsByTagName('td')[1];
-//         if(td){
-//             let textValue = td.innerHTML ||td.textContent;
-//             if(textValue.toUpperCase().indexOf(filter)> -1){
-//                 tr[i].style.display = '';
-//             }else{
-//                 tr[i].style.display = 'none';
-//             }
-//         }
-//     }
-// }
-
-/*-----------------------Filter Tables--------------*/
 
 let filterInput = document.getElementById('table-input');
 filterInput.addEventListener('keyup', filterProducts);
